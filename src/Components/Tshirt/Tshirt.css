@@ -1,0 +1,28 @@
+.single-card-container{
+    width: 70%;
+    height: 380px;
+    margin: 0 auto;
+    /* border: 1px solid grey; */
+    margin-bottom: 30px;
+    border-radius: 15px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;;
+}
+.single-card-container p{
+    margin: 4px;
+}
+.single-card-container h3{
+    margin: 4px;
+}
+.card-container img{
+    width: 70%;
+    height: 70%;
+    object-fit: cover;
+}
+.btn{
+    background: rgb(6, 119, 139);
+    border: none;
+    padding: 7px 25px;
+    color: white;
+    border-radius: 5px;
+    font-weight: 600;
+}
