@@ -4,6 +4,7 @@ import Main from './Layout/Main';
 import Orders from './Components/Orders/Orders';
 import Home from './Components/Home/Home';
 import About from './Components/About/About';
+import Grandpa from './Components/Grandpa/Grandpa';
 function loader() {
   return fetch('tshirts.json')
   .then(res => res.json())
@@ -18,7 +19,8 @@ function App() {
        loader: loader,
        element: <Home></Home>},
       {path: '/orders', element: <Orders></Orders>},
-      {path: '/about', element: <About></About>}
+      {path: '/about', element: <About></About>},
+      {path: '/grandpa', element: <Grandpa></Grandpa>}
      ]}
   ])
   return (
